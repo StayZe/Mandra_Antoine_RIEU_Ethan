@@ -39,9 +39,11 @@ Remarque -> Très lent
 
 --------------------------------
 4.2 - Sac à dos 0/1
-Sac à dos 0/1 pour n = 30: 7
+Sac à dos 0/1 (DP) : 58
+Durée totale : 0.000105 s
 
-
+Sac à dos 0/1 (Bruteforce) : 58
+Durée totale : 0.007452 s
 --------------------------------
 4.3 - LCS :
 Pour 100 caractères

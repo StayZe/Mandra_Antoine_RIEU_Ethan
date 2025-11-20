@@ -1,0 +1,29 @@
+2.1 - Pile
+[1, 2, 3, 4, 5]
+L'item 6 a été ajouté à la pile
+[1, 2, 3, 4, 5, 6]
+L'item 6 a été retiré de la pile
+[1, 2, 3, 4, 5]
+L'élément en haut de la pile est: 5
+La pile n'est pas vide
+--------------------------------
+2.2 - File
+La file est: deque([])
+L'item 6 a été ajouté à la file
+La file est: deque([6])
+L'item 6 a été retiré de la file
+La file est: deque([])
+La file est vide
+--------------------------------
+2.3 - Heap
+La heap est: []
+L'item 5 a été ajouté à la heap
+L'item 3 a été ajouté à la heap
+L'item 7 a été ajouté à la heap
+La heap est: [3, 5, 7]
+L'élément minimum est: 3 a été retiré de la heap
+La heap est: [5, 7]
+La heap2 est: [5, 3, 7]
+La heap2 a été heapifiée
+La heap2 est: [3, 5, 7]
+--------------------------------

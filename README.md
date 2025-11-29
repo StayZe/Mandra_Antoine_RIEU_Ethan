@@ -7,6 +7,7 @@ Projet d'implémentation et d'analyse d'algorithmes fondamentaux en Python.
 Ce projet contient les implémentations suivantes :
 
 1. **Algorithmes de tri** (`src/sorting.py`)
+
    - Bubble Sort (Tri à bulles)
    - Insertion Sort (Tri par insertion)
    - Merge Sort (Tri fusion)
@@ -14,16 +15,19 @@ Ce projet contient les implémentations suivantes :
    - Selection Sort (Tri par sélection)
 
 2. **Structures de données** (`src/data_structures.py`)
+
    - Stack (Pile)
    - Queue (File)
    - Heap (Tas)
 
 3. **Programmation dynamique** (`src/dp.py`)
-   - Fibonacci (Naïf, Mémoïsation, Itératif, Optimisé)
+
+   - Fibonacci (Naïf, Mémoïsation, Itératif, Optimisé) (Mettre en commentaire aux lignes 14-16 pour skip fibonacci et avoir un résultat beaucoup plus rapide)
    - Sac à dos 0/1
    - Plus longue sous-séquence commune (LCS)
 
 4. **Algorithmes gloutons** (`src/greedy.py`)
+
    - Rendu de monnaie
    - Sélection d'activités
    - Sac à dos fractionnaire vs 0/1
@@ -52,33 +56,43 @@ Cette commande exécute tous les modules dans l'ordre et affiche les résultats 
 Vous pouvez également exécuter chaque module individuellement :
 
 #### Algorithmes de tri
+
 ```bash
 python src/sorting.py
 ```
+
 Teste et benchmark 5 algorithmes de tri sur différentes tailles de données (100, 1000, 5000, 10000 éléments).
 
 #### Structures de données
+
 ```bash
 python src/data_structures.py
 ```
+
 Démontre l'utilisation des piles, files et tas.
 
 #### Programmation dynamique
+
 ```bash
 python src/dp.py
 ```
+
 Compare les performances des différentes approches (récursif, DP, itératif) pour Fibonacci, sac à dos et LCS.
 
 #### Algorithmes gloutons
+
 ```bash
 python src/greedy.py
 ```
+
 Exécute les algorithmes gloutons pour le rendu de monnaie, la sélection d'activités et le sac à dos.
 
 #### Compression Huffman
+
 ```bash
 python src/compression.py
 ```
+
 Teste la compression Huffman sur différents types de données et génère un rapport dans `results/compression_analysis.txt`.
 
 ## 📁 Structure du projet
@@ -121,4 +135,3 @@ Certains modules génèrent des fichiers de résultats dans le dossier `results/
 - Tous les résultats s'affichent directement dans la console
 - Les benchmarks utilisent des données aléatoires, les temps d'exécution peuvent varier
 - Pour les algorithmes de tri, les tailles testées vont de 100 à 10 000 éléments
-

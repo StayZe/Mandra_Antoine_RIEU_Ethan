@@ -1,0 +1,124 @@
+EXERCICE 1 : ANALYSE DE COMPLEXITE
+
+1. COMPLEXITE EN MEILLEUR/MOYEN/PIRE CAS
+
+Code 1 : Double boucle
+for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n; j++) {
+        printf("%d", arr[i][j]);
+    }
+}
+
+Meilleur cas : O(n²)
+Cas moyen : O(n²)
+Pire cas : O(n²)
+Espace mémoire : O(1)
+Explication : Deux boucles imbriquées
+
+Code 2 : Boucle logarithmique
+for(int i = 1; i < n; i *= 2) {
+    printf("%d", arr[i]);
+}
+
+Meilleur cas : O(log n)
+Cas moyen : O(log n)
+Pire cas : O(log n)
+Espace mémoire : O(1)
+Explication : i double à chaque itération
+
+Code 3 : Récursion logarithmique
+void recursive(int n) {
+    if(n <= 1) return;
+    printf("%d", n);
+    recursive(n/2);
+}
+
+Meilleur cas : O(log n)
+Cas moyen : O(log n)
+Pire cas : O(log n)
+Espace mémoire : O(log n)
+Explication : n divisé par 2 à chaque appel récursif
+
+
+2. IMPACT POUR n = 1 000 000
+
+Code 1 (Double boucle)
+Opérations : 1,000,000,000,000
+Temps estimé : environ 1000 secondes
+Conclusion : Impraticable
+
+Code 2 (Boucle logarithmique)
+Opérations : 19
+Temps estimé : moins de 1 microseconde
+Conclusion : Très rapide
+
+Code 3 (Récursion logarithmique)
+Opérations : 19 appels récursifs
+Temps estimé : moins de 1 microseconde
+Conclusion : Très rapide
+
+
+3. TEMPS D'EXECUTION REELS
+
+Tests avec n = 10
+
+Code 1 : Double boucle
+Opérations : 100
+Temps : 0.000007 secondes
+
+Code 2 : Boucle logarithmique
+Opérations : 4
+Temps : 0.000002 secondes
+
+Code 3 : Récursion logarithmique
+Opérations : 3
+Temps : 0.000002 secondes
+
+Tests avec n = 100
+
+Code 1 : Double boucle
+Opérations : 10,000
+Temps : 0.000566 secondes
+
+Code 2 : Boucle logarithmique
+Opérations : 7
+Temps : 0.000001 secondes
+
+Code 3 : Récursion logarithmique
+Opérations : 6
+Temps : 0.000001 secondes
+
+Tests avec n = 1,000
+
+Code 1 : Double boucle
+Opérations : 1,000,000
+Temps : 0.073428 secondes
+
+Code 2 : Boucle logarithmique
+Opérations : 10
+Temps : 0.000016 secondes
+
+Code 3 : Récursion logarithmique
+Opérations : 9
+Temps : 0.000014 secondes
+
+Tests avec n = 10,000
+
+Code 1 : Double boucle : Test ignoré (trop lent)
+Opérations théoriques : 100,000,000
+
+Code 2 : Boucle logarithmique
+Opérations : 14
+Temps : 0.000157 secondes
+
+Code 3 : Récursion logarithmique
+Opérations : 13
+Temps : 0.000002 secondes
+
+
+CONCLUSION
+
+Pour n = 1 000 000 :
+Code 1 est impraticable (1 trillion d'opérations)
+Codes 2 et 3 sont très efficaces (environ 20 opérations)
+Rapport : environ 50 milliards de fois plus rapide

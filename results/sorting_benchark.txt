@@ -1,0 +1,190 @@
+================================================================================
+BENCHMARK DES ALGORITHMES DE TRI
+================================================================================
+
+
+================================================================================
+TAILLE DE LA LISTE: 100 éléments
+================================================================================
+
+Échantillon liste non triée (10 premiers): [151860, 533930, 734056, 45180, 28340, 822972, 575563, 929644, 867577, 287401]
+
+Bubble Sort:
+  Temps d'exécution: 0.000237 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [9725, 28340, 32012, 42569, 45180, 51915, 58064, 59363, 62415, 64641]
+
+Insertion Sort:
+  Temps d'exécution: 0.000128 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [9725, 28340, 32012, 42569, 45180, 51915, 58064, 59363, 62415, 64641]
+
+Merge Sort:
+  Temps d'exécution: 0.000092 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [9725, 28340, 32012, 42569, 45180, 51915, 58064, 59363, 62415, 64641]
+
+Quick Sort:
+  Temps d'exécution: 0.000038 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [9725, 28340, 32012, 42569, 45180, 51915, 58064, 59363, 62415, 64641]
+
+Selection Sort:
+  Temps d'exécution: 0.000133 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [9725, 28340, 32012, 42569, 45180, 51915, 58064, 59363, 62415, 64641]
+
+
+--------------------------------------------------------------------------------
+RÉSUMÉ DES PERFORMANCES (Taille: 100)
+--------------------------------------------------------------------------------
+1. Quick Sort: 0.000038s
+2. Merge Sort: 0.000092s
+3. Insertion Sort: 0.000128s
+4. Selection Sort: 0.000133s
+5. Bubble Sort: 0.000237s
+
+
+================================================================================
+TAILLE DE LA LISTE: 1000 éléments
+================================================================================
+
+Échantillon liste non triée (10 premiers): [957236, 220734, 233602, 932672, 856964, 729629, 408652, 982370, 773457, 807095]
+
+Bubble Sort:
+  Temps d'exécution: 0.029892 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [238, 247, 1993, 3371, 4865, 5723, 7308, 7853, 8485, 8670]
+
+Insertion Sort:
+  Temps d'exécution: 0.013150 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [238, 247, 1993, 3371, 4865, 5723, 7308, 7853, 8485, 8670]
+
+Merge Sort:
+  Temps d'exécution: 0.001215 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [238, 247, 1993, 3371, 4865, 5723, 7308, 7853, 8485, 8670]
+
+Quick Sort:
+  Temps d'exécution: 0.000622 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [238, 247, 1993, 3371, 4865, 5723, 7308, 7853, 8485, 8670]
+
+Selection Sort:
+  Temps d'exécution: 0.014080 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [238, 247, 1993, 3371, 4865, 5723, 7308, 7853, 8485, 8670]
+
+
+--------------------------------------------------------------------------------
+RÉSUMÉ DES PERFORMANCES (Taille: 1000)
+--------------------------------------------------------------------------------
+1. Quick Sort: 0.000622s
+2. Merge Sort: 0.001215s
+3. Insertion Sort: 0.013150s
+4. Selection Sort: 0.014080s
+5. Bubble Sort: 0.029892s
+
+
+================================================================================
+TAILLE DE LA LISTE: 5000 éléments
+================================================================================
+
+Échantillon liste non triée (10 premiers): [462329, 652836, 122193, 810861, 488210, 646189, 727262, 836869, 496051, 889634]
+
+Bubble Sort:
+  Temps d'exécution: 0.810588 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [37, 306, 468, 631, 685, 1233, 1483, 1608, 2125, 2395]
+
+Insertion Sort:
+  Temps d'exécution: 0.350166 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [37, 306, 468, 631, 685, 1233, 1483, 1608, 2125, 2395]
+
+Merge Sort:
+  Temps d'exécution: 0.006745 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [37, 306, 468, 631, 685, 1233, 1483, 1608, 2125, 2395]
+
+Quick Sort:
+  Temps d'exécution: 0.003732 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [37, 306, 468, 631, 685, 1233, 1483, 1608, 2125, 2395]
+
+Selection Sort:
+  Temps d'exécution: 0.361515 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [37, 306, 468, 631, 685, 1233, 1483, 1608, 2125, 2395]
+
+
+--------------------------------------------------------------------------------
+RÉSUMÉ DES PERFORMANCES (Taille: 5000)
+--------------------------------------------------------------------------------
+1. Quick Sort: 0.003732s
+2. Merge Sort: 0.006745s
+3. Insertion Sort: 0.350166s
+4. Selection Sort: 0.361515s
+5. Bubble Sort: 0.810588s
+
+
+================================================================================
+TAILLE DE LA LISTE: 10000 éléments
+================================================================================
+
+Échantillon liste non triée (10 premiers): [124947, 948742, 545618, 652386, 766626, 653012, 22006, 544198, 797137, 126735]
+
+Bubble Sort:
+  Temps d'exécution: 3.401162 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [24, 171, 261, 270, 472, 477, 666, 678, 743, 762]
+
+Insertion Sort:
+  Temps d'exécution: 1.455157 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [24, 171, 261, 270, 472, 477, 666, 678, 743, 762]
+
+Merge Sort:
+  Temps d'exécution: 0.014997 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [24, 171, 261, 270, 472, 477, 666, 678, 743, 762]
+
+Quick Sort:
+  Temps d'exécution: 0.008347 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [24, 171, 261, 270, 472, 477, 666, 678, 743, 762]
+
+Selection Sort:
+  Temps d'exécution: 1.444895 secondes
+  Statut: ✓ Trié correctement
+  Échantillon résultat (10 premiers): [24, 171, 261, 270, 472, 477, 666, 678, 743, 762]
+
+
+--------------------------------------------------------------------------------
+RÉSUMÉ DES PERFORMANCES (Taille: 10000)
+--------------------------------------------------------------------------------
+1. Quick Sort: 0.008347s
+2. Merge Sort: 0.014997s
+3. Selection Sort: 1.444895s
+4. Insertion Sort: 1.455157s
+5. Bubble Sort: 3.401162s
+
+
+================================================================================
+ANALYSE COMPARATIVE
+================================================================================
+
+Complexités temporelles:
+  - Bubble Sort:    O(n²) moyen et pire cas
+  - Insertion Sort: O(n²) moyen et pire cas, O(n) meilleur cas
+  - Selection Sort: O(n²) dans tous les cas
+  - Merge Sort:     O(n log n) dans tous les cas
+  - Quick Sort:     O(n log n) moyen, O(n²) pire cas
+
+Recommandations:
+  - Pour petites listes: Insertion Sort
+  - Pour grandes listes: Merge Sort ou Quick Sort
+  - Pour stabilité garantie: Merge Sort
+  - Pour économie de mémoire: Quick Sort (in-place)
+

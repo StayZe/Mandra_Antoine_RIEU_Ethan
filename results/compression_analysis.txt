@@ -7,31 +7,31 @@ Test sur : Texte anglais
 Taille originale : 567 octets (4536 bits)
 Taille compressée : 315 octets (2518 bits)
 Taux de compression : 44.49%
-Temps de compression : 0.000128 s
-Temps de décompression : 0.000152 s
-Temps total : 0.000280 s
+Temps de compression : 0.000196 s
+Temps de décompression : 0.000161 s
+Temps total : 0.000357 s
 Intégrité : ✓ OK
 
 ============================================================
 Test sur : Fichier binaire (1000 bytes)
 ============================================================
 Taille originale : 1000 octets (8000 bits)
-Taille compressée : 982 octets (7850 bits)
-Taux de compression : 1.88%
-Temps de compression : 0.000432 s
-Temps de décompression : 0.000469 s
-Temps total : 0.000901 s
+Taille compressée : 980 octets (7836 bits)
+Taux de compression : 2.05%
+Temps de compression : 0.000437 s
+Temps de décompression : 0.000495 s
+Temps total : 0.000932 s
 Intégrité : ✓ OK
 
 ============================================================
 Test sur : Données aléatoires (2000 caractères)
 ============================================================
 Taille originale : 2000 octets (16000 bits)
-Taille compressée : 1640 octets (13113 bits)
-Taux de compression : 18.04%
-Temps de compression : 0.000352 s
-Temps de décompression : 0.000802 s
-Temps total : 0.001154 s
+Taille compressée : 1639 octets (13109 bits)
+Taux de compression : 18.07%
+Temps de compression : 0.000302 s
+Temps de décompression : 0.000751 s
+Temps total : 0.001053 s
 Intégrité : ✓ OK
 
 ============================================================
@@ -40,9 +40,9 @@ Test sur : Texte avec répétitions
 Taille originale : 840 octets (6720 bits)
 Taille compressée : 172 octets (1370 bits)
 Taux de compression : 79.61%
-Temps de compression : 0.000087 s
-Temps de décompression : 0.000083 s
-Temps total : 0.000170 s
+Temps de compression : 0.000062 s
+Temps de décompression : 0.000084 s
+Temps total : 0.000146 s
 Intégrité : ✓ OK
 
 ============================================================
@@ -51,9 +51,9 @@ Test sur : Texte court
 Taille originale : 11 octets (88 bits)
 Taille compressée : 4 octets (32 bits)
 Taux de compression : 63.64%
-Temps de compression : 0.000014 s
-Temps de décompression : 0.000004 s
-Temps total : 0.000018 s
+Temps de compression : 0.000011 s
+Temps de décompression : 0.000003 s
+Temps total : 0.000014 s
 Intégrité : ✓ OK
 
 ============================================================

@@ -22,7 +22,7 @@ Ce projet contient les implémentations suivantes :
 
 3. **Programmation dynamique** (`src/dp.py`)
 
-   - Fibonacci (Naïf, Mémoïsation, Itératif, Optimisé) (Mettre en commentaire aux lignes 14-16 pour skip fibonacci et avoir un résultat beaucoup plus rapide)
+   - Fibonacci (Naïf, Mémoïsation, Itératif, Optimisé) (Retirer les commantaires aux lignes 14-16 pour avoir fibonacci)
    - Sac à dos 0/1
    - Plus longue sous-séquence commune (LCS)
 

@@ -11,9 +11,9 @@ def fibonacci_naif(n):
     return fibonacci_naif(n-1) + fibonacci_naif(n-2)
 
 # Mettre en commentaire pour skip et avoir un résultat plus rapide
-print(" Fibonacci Naïf pour n = 30: " + str(fibonacci_naif(30)))
-print(" Fibonacci Naïf pour n = 40: " + str(fibonacci_naif(40)))
-print(" Fibonacci Naïf pour n = 50: " + str(fibonacci_naif(50)))
+# print(" Fibonacci Naïf pour n = 30: " + str(fibonacci_naif(30)))
+# print(" Fibonacci Naïf pour n = 40: " + str(fibonacci_naif(40)))
+# print(" Fibonacci Naïf pour n = 50: " + str(fibonacci_naif(50)))
 
 # Fibonacci avec Memoization
 
